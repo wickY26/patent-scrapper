@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node generate-docs.js",
+    "test": "npx playwright test --ui"
+  },
+  "dependencies": {
+    "playwright": "^1.48.2"
+  }
+}
